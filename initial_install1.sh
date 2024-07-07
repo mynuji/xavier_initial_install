@@ -18,6 +18,10 @@ sudo apt-get install -y libboost-python-dev
 sudo apt-get install -y libboost-thread-dev
 sudo apt-get install -y libgflags-dev
 sudo apt-get install -y fcitx-hangul
+sudo apt-get install -y cmake-qt-gui
+sudo apt-get install -y git
+sudo apt-get install -y libqt5*-dev 
+sudo apt-get install -y pkg-config
 
 sudo pip3 install wget
 sudo pip3 install Cython
