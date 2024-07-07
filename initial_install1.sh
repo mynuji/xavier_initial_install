@@ -4,6 +4,8 @@ echo "==================================================="
 echo " 1. Install required package"
 echo " =================================================="
 
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install -y cmake
 sudo apt-get install -y build-essential 
 sudo apt-get install -y python3-pip
