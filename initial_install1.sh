@@ -22,6 +22,9 @@ sudo apt-get install -y cmake-qt-gui
 sudo apt-get install -y git
 sudo apt-get install -y libqt5*-dev 
 sudo apt-get install -y pkg-config
+sudo apt-get install -y libjpeg-dev 
+sudo apt-get install -y libtiff5-dev 
+sudo apt-get install -y libpng-dev
 
 sudo pip3 install wget
 sudo pip3 install Cython
