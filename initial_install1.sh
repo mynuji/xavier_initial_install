@@ -49,10 +49,23 @@ sudo apt-get install -y python3-setuptools
 sudo apt-get install -y libavresample-dev 
 sudo apt-get install -y liblapacke-dev 
 sudo apt-get install -y qt5-default
+sudo apt-get install -y python3-pip 
+sudo apt-get install -y libopenblas-base 
+sudo apt-get install -y libopenmpi-dev 
+sudo apt-get install -y libomp-dev
 
+#torchvision
+sudo apt-get install -y libjpeg-dev 
+sudo apt-get install -y zlib1g-dev 
+sudo apt-get install -y libpython3-dev 
+sudo apt-get install -y libopenblas-dev 
+sudo apt-get install -y libavcodec-dev 
+sudo apt-get install -y libavformat-dev 
+sudo apt-get install -y libswscale-dev
 
 sudo pip3 install wget
-sudo pip3 install Cython
+sudo pip3 install 'Cython<3'
+sudo pip3 install numpy
 
 echo "==================================================="
 echo " 2. jtop 실행하기 위한 패키지 설치
