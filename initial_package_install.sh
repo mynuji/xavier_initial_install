@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "==================================================="
-echo " 1. Install required package
+echo " 1. Install required package"
 echo " =================================================="
 
 sudo apt-get install -y cmake
@@ -20,13 +20,13 @@ sudo pip3 install wget
 sudo pip3 install Cython
 
 echo "==================================================="
-echo " 2. Install jetson-state
+echo " 2. Install jetson-state"
 echo " =================================================="
 
 sudo -H pip install -U jetson-stats
 
 echo "==================================================="
-echo " 3. enable fan controller
+echo " 3. enable fan controller"
 echo " =================================================="
 
 sudo systemctl stop nvfancontrol
