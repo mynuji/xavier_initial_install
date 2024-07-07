@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "==================================================="
-echo " 1. Install required package"
+echo " 1. 처음 필요한 패키지들을 설치합니다. 
 echo " =================================================="
 
 sudo apt-get update
@@ -22,13 +22,13 @@ sudo pip3 install wget
 sudo pip3 install Cython
 
 echo "==================================================="
-echo " 2. Install jetson-state"
+echo " 2. jtop 실행하기 위한 패키지 설치
 echo " =================================================="
 
 sudo -H pip install -U jetson-stats
 
 echo "==================================================="
-echo " 3. enable fan controller"
+echo " 3.팬 속도 조절 (/etc/nvfancontrol.conf 로 속도 조절)
 echo " =================================================="
 
 sudo systemctl stop nvfancontrol
