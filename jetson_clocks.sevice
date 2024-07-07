@@ -1,0 +1,13 @@
+#
+# /etc/systemd/system/jetson_clocks.service
+
+[Unit]
+Description=Jetson Clocks Maximize
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/jetson_clocks
+
+[Install]
+WantedBy=multi-user.target
