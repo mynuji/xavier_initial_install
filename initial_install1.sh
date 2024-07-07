@@ -25,6 +25,17 @@ sudo apt-get install -y pkg-config
 sudo apt-get install -y libjpeg-dev 
 sudo apt-get install -y libtiff5-dev 
 sudo apt-get install -y libpng-dev
+sudo apt-get install -y libavcodec-dev 
+sudo apt-get install -y libavformat-dev 
+sudo apt-get install -y libswscale-dev 
+sudo apt-get install -y libxvidcore-dev 
+sudo apt-get install -y libx264-dev x264 
+sudo apt-get install -y libxine2-dev 
+sudo apt-get install -y libv4l-dev 
+sudo apt-get install -y v4l-utils 
+sudo apt-get install -y libgstreamer1.0-dev 
+sudo apt-get install -y libgstreamer-plugins-base1.0-dev
+
 
 sudo pip3 install wget
 sudo pip3 install Cython
