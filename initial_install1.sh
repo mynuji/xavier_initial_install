@@ -17,6 +17,7 @@ sudo apt-get install -y libboost-all-dev
 sudo apt-get install -y libboost-python-dev 
 sudo apt-get install -y libboost-thread-dev
 sudo apt-get install -y libgflags-dev
+sudo apt-get install -y fcitx-hangul
 
 sudo pip3 install wget
 sudo pip3 install Cython
@@ -34,3 +35,7 @@ echo " =================================================="
 sudo systemctl stop nvfancontrol
 sudo rm /var/lib/nvfancontrol/status
 sudo systemctl start nvfancontrol
+
+echo "============================================================="
+echo "  재부팅(reboot) 후에 jtop, fan control, fcitx-hangul이 작동합니다."
+echo "=============================================================="
