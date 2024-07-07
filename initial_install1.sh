@@ -35,6 +35,20 @@ sudo apt-get install -y libv4l-dev
 sudo apt-get install -y v4l-utils 
 sudo apt-get install -y libgstreamer1.0-dev 
 sudo apt-get install -y libgstreamer-plugins-base1.0-dev
+sudo apt-get install -y mesa-utils 
+sudo apt-get install -y libgl1-mesa-dri 
+sudo apt-get install -y libatlas-base-dev 
+sudo apt-get install -y gfortran 
+sudo apt-get install -y libeigen3-dev 
+sudo apt-get install -y libtbb2 
+sudo apt-get install -y libtbb-dev
+sudo apt-get install -y python3-dev 
+sudo apt-get install -y python-numpy 
+sudo apt-get install -y python3-numpy 
+sudo apt-get install -y python3-setuptools
+sudo apt-get install -y libavresample-dev 
+sudo apt-get install -y liblapacke-dev 
+sudo apt-get install -y qt5-default
 
 
 sudo pip3 install wget
