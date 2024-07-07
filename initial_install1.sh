@@ -8,6 +8,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y cmake
 sudo apt-get install -y build-essential 
+sudo apt-get install -y exfat*
 sudo apt-get install -y python3-pip
 sudo apt-get install -y python3-numpy
 sudo apt-get install -y python3-matplotlib
